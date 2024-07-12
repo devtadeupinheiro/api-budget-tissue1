@@ -1,0 +1,17 @@
+Fazendo o produto usando composição
+Através do front, receber as informações do produto, depois das outras classes que compoem o produto e depois validar todos, para que
+nao salve uma parte e fique configuracoes em branco. Ex: Salvar consumo de tecido mais ficar sem o consumo de faixas refletivas.
+
+Criar métodos para que se deixar algo em branco, ele preencher com o necessário para prosseguir com a aplicacao normalmente.
+Ex: Se não tiver fita, o usuario ira deixar em branco, então um metodo ira identificar este campo vazio e preenche-lo com 0 para que
+nao influencie no calculo dos valores e nem gere erro pela falta dele.
+
+O programa está puxando?
+tipo de PEÇA junto com CONSUMO DE TECIDO, CONSUMO DE LINHA.
+CONSUMO DE FAIXAS por completo, ou seja, de acordo com escolha, será necessário zerar os atributos
+
+Ver como criar método para zerar consumo das faixas caso não as queira
+
+Resolver problema da classe StripReflectiveConsumption: o id é pra ser atribuido automaticamente, mas como vou consultar se já existe se o
+objeto que estou fazendo a persistência ainda não possui id? Criar método para válidar pelos atributos e não pelo id.
+Usar equals hashcode.
